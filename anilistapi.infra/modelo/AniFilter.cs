@@ -12,6 +12,8 @@ namespace anilistapi.infra.modelo
         public AniFilter() { filtroLimit = 100; }
         private int? _id;
         private int? _page;
+        
+        // TODO: Revisar necessidade deste construtor
         public AniFilter(float _limit)
         {
             int result  = 0;
@@ -29,11 +31,5 @@ namespace anilistapi.infra.modelo
             private set { _page = value; }
         }
 
-    }
-    
-    public class Title
-    {
-        public string? romaji { get; set; }
-        public string? english { get; set; }
     }
 }

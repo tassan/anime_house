@@ -1,4 +1,5 @@
-﻿using anilistapi.infra;
+﻿using anilistapi.domain.Models;
+using anilistapi.infra;
 using anilistapi.infra.modelo;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

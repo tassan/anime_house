@@ -1,4 +1,5 @@
-﻿using anilistapi.infra.modelo;
+﻿using anilistapi.domain.Models;
+using anilistapi.infra.modelo;
 using RestSharp;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
@@ -18,7 +19,6 @@ namespace anilistapi.infra
             string connectionString = "Host=localhost;Port=3366;user=root;database=animechar;password=my-secret-pw;";
             conn = connectionString;
             url = "https://graphql.anilist.co";
-            
         }
 
         public Media[] GetQuadrinhosEANIMES_ALL(AniFilter filter)
@@ -59,11 +59,11 @@ namespace anilistapi.infra
                             }";
 
 
-            var variables = new { id= filter.id, page = filter.page, perPage = items, search = filter.name };
+            var variables = new { id = filter.id, page = filter.page, perPage = items, search = filter.name };
 
             var client = new RestClient(url);
-            
-            var request = new RestRequest("",Method.Post);
+
+            var request = new RestRequest("", Method.Post);
             request.AddJsonBody(new { query = query });
 
             var response = client.Execute(request);
@@ -105,11 +105,11 @@ namespace anilistapi.infra
         */
         public bool Save(Media itens)
         {
-            foreach (var charact in itens.characters.edges)
+            foreach (var charact in itens.Characters.Edges)
             {
                 string sqlToInsert =
-                    $@"insert into animecharData (id, title_rom, title_eng, ban, node_id, name_full, description, role) values ('{itens.id}','{itens.title.english}','{itens.title.romaji}','{itens.bannerImage}',{charact.node.id},'{charact.node.name.full}','{charact.node.description}','{charact.role}');";
-                
+                    $@"insert into animecharData (id, title_rom, title_eng, ban, node_id, name_full, description, role) values ('{itens.Id}','{itens.Title.English}','{itens.Title.Romaji}','{itens.BannerImage}',{charact.Node.Id},'{charact.Node.Name.Full}','{charact.Node.Description}','{charact.Role}');";
+
                 try
                 {
                     using (MySqlConnection connection = new MySqlConnection(conn))
@@ -125,7 +125,7 @@ namespace anilistapi.infra
                 {
                 }
             }
-           
+
 
             return true;
         }
