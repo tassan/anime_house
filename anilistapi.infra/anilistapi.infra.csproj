@@ -10,12 +10,11 @@
     <PackageReference Include="MySql.Data" Version="8.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="RestSharp" Version="110.2.0" />
-    <PackageReference Include="RestSharp.Newtonsoft.Json" Version="1.5.1" />
-    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="110.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\anilistapi.domain\anilistapi.domain.csproj" />
   </ItemGroup>
+
 
 </Project>

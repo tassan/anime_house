@@ -12,7 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\anilistapi.application\anilistapi.application.csproj" />
+    <ProjectReference Include="..\anilistapi.infra.rest\anilistapi.infra.rest.csproj" />
     <ProjectReference Include="..\anilistapi.infra\anilistapi.infra.csproj" />
   </ItemGroup>
+
 
 </Project>

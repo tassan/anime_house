@@ -7,6 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\Strategy\" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RestSharp" Version="110.2.0" />
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\anilistapi.domain\anilistapi.domain.csproj" />
+    </ItemGroup>
+
 </Project>

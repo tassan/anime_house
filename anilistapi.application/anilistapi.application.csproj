@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\Strategy\" />
+      <ProjectReference Include="..\anilistapi.domain\anilistapi.domain.csproj" />
     </ItemGroup>
+
 </Project>

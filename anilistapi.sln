@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra", "anilist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.domain", "anilistapi.domain\anilistapi.domain.csproj", "{FCDA9CDA-636D-4C29-9585-60E62ABE1680}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.tests", "anilistapi.tests\anilistapi.tests.csproj", "{69E9F1BB-171B-4A87-94CB-274BF07C0481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra.rest", "anilistapi.infra.rest\anilistapi.infra.rest.csproj", "{A9E52697-FA33-4AFE-8201-F982DD1368AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.application", "anilistapi.application\anilistapi.application.csproj", "{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{FCDA9CDA-636D-4C29-9585-60E62ABE1680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDA9CDA-636D-4C29-9585-60E62ABE1680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDA9CDA-636D-4C29-9585-60E62ABE1680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E9F1BB-171B-4A87-94CB-274BF07C0481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E9F1BB-171B-4A87-94CB-274BF07C0481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E9F1BB-171B-4A87-94CB-274BF07C0481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E9F1BB-171B-4A87-94CB-274BF07C0481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E52697-FA33-4AFE-8201-F982DD1368AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E52697-FA33-4AFE-8201-F982DD1368AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E52697-FA33-4AFE-8201-F982DD1368AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E52697-FA33-4AFE-8201-F982DD1368AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
