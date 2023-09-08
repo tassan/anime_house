@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi", "anilistapi\anilistapi.csproj", "{870F4649-C8A8-4861-809B-5548F98C3EBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi", "src\anilistapi\anilistapi.csproj", "{870F4649-C8A8-4861-809B-5548F98C3EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra", "anilistapi.infra\anilistapi.infra.csproj", "{E03E1840-1A35-4A90-9818-28A2BB1CEF8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra", "src\anilistapi.infra\anilistapi.infra.csproj", "{E03E1840-1A35-4A90-9818-28A2BB1CEF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.domain", "anilistapi.domain\anilistapi.domain.csproj", "{FCDA9CDA-636D-4C29-9585-60E62ABE1680}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.domain", "src\anilistapi.domain\anilistapi.domain.csproj", "{FCDA9CDA-636D-4C29-9585-60E62ABE1680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.tests", "anilistapi.tests\anilistapi.tests.csproj", "{69E9F1BB-171B-4A87-94CB-274BF07C0481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.tests", "tests\anilistapi.tests\anilistapi.tests.csproj", "{69E9F1BB-171B-4A87-94CB-274BF07C0481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra.rest", "anilistapi.infra.rest\anilistapi.infra.rest.csproj", "{A9E52697-FA33-4AFE-8201-F982DD1368AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.infra.rest", "src\anilistapi.infra.rest\anilistapi.infra.rest.csproj", "{A9E52697-FA33-4AFE-8201-F982DD1368AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.application", "anilistapi.application\anilistapi.application.csproj", "{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "anilistapi.application", "src\anilistapi.application\anilistapi.application.csproj", "{8FCAC00C-4BC3-416F-97EA-79E82D2CE1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

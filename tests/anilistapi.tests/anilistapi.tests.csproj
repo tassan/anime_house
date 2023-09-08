@@ -25,10 +25,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\anilistapi.domain\anilistapi.domain.csproj" />
-      <ProjectReference Include="..\anilistapi.infra.rest\anilistapi.infra.rest.csproj" />
-      <ProjectReference Include="..\anilistapi.infra\anilistapi.infra.csproj" />
-      <ProjectReference Include="..\anilistapi\anilistapi.csproj" />
+      <ProjectReference Include="..\..\src\anilistapi.domain\anilistapi.domain.csproj" />
+      <ProjectReference Include="..\..\src\anilistapi.domain\anilistapi.domain.csproj" />
+      <ProjectReference Include="..\..\src\anilistapi.infra.rest\anilistapi.infra.rest.csproj" />
+      <ProjectReference Include="..\..\src\anilistapi.infra\anilistapi.infra.csproj" />
+      <ProjectReference Include="..\..\src\anilistapi\anilistapi.csproj" />
     </ItemGroup>
 
 
